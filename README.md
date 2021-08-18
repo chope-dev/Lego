@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Santiago</h1>
 <h3 align="center">A passionate frontend developer from Argentina</h3>
 
-<h3 align="center">Maquetacion y Animacion con CSS||Manejo del doom con JS</h3>
+<h3 align="center">Maquetacion y Animacion con CSS || Manejo del doom con JS</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
