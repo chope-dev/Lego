@@ -8,5 +8,13 @@
   },
   "keywords": [],
   "author": "Santiago Giorgetti",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chope-dev/Lego.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chope-dev/Lego/issues"
+  },
+  "homepage": "https://github.com/chope-dev/Lego#readme"
 }

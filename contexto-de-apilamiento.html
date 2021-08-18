@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LEGO</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="https://i.ibb.co/MMmDPXN/lego.png" type="image/x-icon">
 </head>
@@ -16,16 +16,16 @@
                 <div class="navbar__content">
                     <img src="https://i.ibb.co/MMmDPXN/lego.png" alt="logo">
                     <ul>
-                        <li><a href="">EXLUSIVOS</a></li>
-                        <li><a href="">NUEVOS</a></li>
-                        <li><a href="">GIFT</a></li>
-                        <li><a href="">FIND A STORE</a></li>
+                        <li><a href="#EXCLUSIVE">EXCLUSIVE</a></li>
+                        <li><a href="#NEWS">NEWS</a></li>
+                        <li><a href="#GIF-CARDS">GIF CARDS</a></li>
+                        <li><a href="#FIND-A-STORE">FIND A STORE</a></li>
                     </ul>
                 </div>
             </nav>
             <section class="main-content">
-                <p>Diseña tu</p>
-                <h1>Súper Héroe!</h1>
+                <p>Design your</p>
+                <h1>Super Hero!</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit aut doloremque similique accusantium! Earum perspiciatis debitis, quasi quidem iure officia temporibus voluptas esse assumenda suscipit! Quos nesciunt porro perspiciatis et?</p>
             </section>
             <section class="side-content">
@@ -34,14 +34,14 @@
                 <img src="https://i.ibb.co/x16pz1x/super-man.png" alt="superman">
             </section>
 
-            <section>
-                <div>
+            <section class="footer">
+                <div id="button1">
                     <img src="https://i.ibb.co/tKWqw8J/spiderman.png" alt="spiderman">
                 </div>
-                <div>
+                <div id="button2">
                     <img src="https://i.ibb.co/Xzsdvgg/robin.png" alt="robin">
                 </div>
-                <div>
+                <div id="button3">
                     <img src="https://i.ibb.co/M18p91c/batman.webp" alt="batman">
                 </div>
             </section>
@@ -53,8 +53,29 @@
             <div></div>
         </section>
         <!-- Modal -->
-        <section></section>
+        <section class="modal hidden">
+            <div class="modal__content">
+                <img class="modal__content--close" src="https://img.icons8.com/windows/50/000000/macos-close.png"/ alt="close icon">
+                <div class="modal__content--slider">
+                <input type="radio" name="slider-1" id="radio-1" checked>
+                <input type="radio" name="slider-1" id="radio-2">
+                <input type="radio" name="slider-1" id="radio-3">
+                <div class="cards">
+                    <label for="radio-1" id="card-1" class="card">
+                        <img src="https://i.pinimg.com/originals/a6/57/24/a6572497d91badc608615e399fdc3444.png" alt="">
+                    </label>
+                    <label for="radio-2" id="card-2" class="card">
+                        <img src="https://i.ebayimg.com/images/g/v2kAAOSwggJeucA8/s-l400.png" alt="">
+                    </label>
+                    <label for="radio-3" id="card-3" class="card">
+                        <img src="https://i.pinimg.com/originals/c6/6a/a1/c66aa1652c932d038a0d8afcf2b3e6b7.png" alt="">
+                    </label>
+                </div>
+            </div>
+            <button class="modal__content_button">I want it</button>
+        </section>
     </div>
 
 </body>
+<script src="./index.js"></script>
 </html>
