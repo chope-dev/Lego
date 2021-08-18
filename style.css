@@ -106,7 +106,8 @@ font-size: 48px;
 font-weight: 700;
 }
 .main-content p:last-child {
-font-weight: 100;
+color: black;
+font-weight: 200;
 margin: 0;
 width: 60%;
 }
