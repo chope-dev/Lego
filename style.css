@@ -5,6 +5,7 @@
         url('../assets/fonts/Lato-Bold.woff2') format("woff2");
     font-weight: 100, 300, 700;
 }
+/* variables */
 :root {
 --blue: #036cb6;
 --red: #d5040a;
